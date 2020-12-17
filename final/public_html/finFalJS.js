@@ -17,7 +17,7 @@ function addSales(){
     weeklyTotal = dailySales[0]+dailySales[1]+dailySales[2]+dailySales[3]+dailySales[4]+dailySales[5]+dailySales[6];
    document.write("<br>$"+ weeklyTotal + "  are this week's sales totals!");
    avarage= weeklyTotal/7;
-   document.write("<br>$ "+avarage+" is the average daily sales total");
+   document.write("<br>$ "+avarage.toFixed(2)+" is the average daily sales total");
   high  = dailySales.reduce(function(a,b){return Math.max(a,b);});
   document.write('<br>$'+ high +"  was the highest one day total sales");
   low = dailySales.reduce(function(a,b){return Math.min(a,b);});
