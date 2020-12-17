@@ -24,7 +24,7 @@ function addSales(){
   document.write("<br>$"+ low+ " is the lowest one day sales total");
   
 }
-//i didnt use a for of loop
+//i didnt use a for of loop*
 
 
 
